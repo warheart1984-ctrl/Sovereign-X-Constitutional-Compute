@@ -1,0 +1,23 @@
+{
+  "name": "@sovereign-x/constitutional-compute",
+  "version": "0.1.0",
+  "description": "Sovereign X Constitutional Compute Fabric — Router-as-Scheduler reference implementation (CCS)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/",
+    "demo": "node src/demo.js",
+    "start": "node src/demo.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "constitutional-compute",
+    "scheduler",
+    "sovereign-x",
+    "continuity-ledger"
+  ],
+  "license": "MIT",
+  "private": false
+}

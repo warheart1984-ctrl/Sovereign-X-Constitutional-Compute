@@ -1,0 +1,11 @@
+---
+description: Prefer LineageStudio skills/modes over Mandala mrs-crew for this repo
+alwaysApply: true
+---
+
+# Lineage-first (Sovereign X CCS)
+
+1. Read `AGENTS.md` in this repo
+2. Prefer `G:\LineageStudio\.cursor\skills\ls-*` and modes/vendor maps under LineageStudio
+3. Do not use Mandala `mrs-crew` as primary
+4. Hardware / G-1 Mandala GPU claims stay **declared** unless tests + runtime prove otherwise

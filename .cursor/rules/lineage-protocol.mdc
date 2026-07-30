@@ -1,0 +1,23 @@
+---
+description: Use LineageStudio crew/skills/modes/vendor-skills as primary agent protocol for this repo
+alwaysApply: true
+---
+
+# Lineage protocol (primary)
+
+This repository’s agent operating system is **LineageStudio** (`G:\LineageStudio`), not Mandala MRS `mrs-*`.
+
+When working here:
+
+1. Foreman: `G:\LineageStudio\.cursor\skills\ls-crew\SKILL.md`
+2. Role skills: `ls-architect`, `ls-builder`, `ls-implementor`, `ls-reviewer`, `ls-inspector`, `ls-esfr`, `ls-coding`
+3. Agents / phases: `G:\LineageStudio\.cursor\mandala-crew\agents.yaml` (100 pre-ESFR + ESFR #101)
+4. Modes: `G:\LineageStudio\.cursor\mandala-crew\modes-registry.json` + mode-cards
+5. ModeKey rule: `G:\LineageStudio\.cursor\rules\mandala-modekey-auto-apply.mdc`
+6. Vendor skills: resolve via `vendor-skills-map.json` / `vendor-skills-paths.json` under LineageStudio `.cursor/mandala-crew/`
+
+Bootstrap ModeKey for CCS work: `sage__navigator__evidence-strict`
+
+Precedence: role bans > Constitution > Evidence > Profile > Mode.
+
+Drive-G-1/G-2 still bind all of `G:\`.
