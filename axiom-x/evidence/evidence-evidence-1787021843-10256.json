@@ -1,0 +1,37 @@
+{
+  "intent_id": "evidence-1787021843-10256",
+  "schema_version": "1.0.0",
+  "timestamp": "2026-08-18T02:57:23Z",
+  "manifest": {
+    "intent_id": "smoke-test-001",
+    "base_model": "sd_turbo.safetensors",
+    "seed": 42,
+    "resolution": 128
+  },
+  "capability": {
+    "backendType": "miniisa",
+    "target": {
+      "targetIdentity": {
+        "architecture": "mini-isa-v1",
+        "vendor": "MiniISA"
+      }
+    }
+  },
+  "kernel": {
+    "hash": "b3cc4f2b098782ca0743d5cd387b7a5c42fb3c6ad457eafc889b7dd3beb5b3cd",
+    "source": "unknown"
+  },
+  "output": {
+    "path": "N/A",
+    "hash": "8f94193b07c819ae1c304e6726bea1cfabb1d76b0a0576d5be6b2485df882616"
+  },
+  "seed": 42,
+  "timings": {},
+  "constitutional": {
+    "gpu_assist_only": true,
+    "non_authoritative": true,
+    "replayable": true,
+    "determinism_required": false
+  },
+  "provenance_hash": "7f214a177a83b66ac8de297a4b5f89581d6af450832e645b6989963a4abcbaee"
+}
