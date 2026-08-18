@@ -1,0 +1,11 @@
+[package]
+name = "axiom-x-hip"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "axiom_x_hip"
+path = "src/lib.rs"
+
+[build-dependencies]
+cc = "1"
